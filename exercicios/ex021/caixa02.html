@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow:5px 3px 7px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 33px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: beige;
+        }
+
+    </style>
+</head>
+<body>
+    <!--DiV semanticas(divisões da tag div com sentido próprio)--> 
+   <header>
+       <!--Cabeçalho-->
+       <h1>Meu site</h1> ]
+       <nav>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+       </nav>
+   </header>
+   <main>
+        <!--Texto principal--> 
+        <selection id="assuntos">
+            <P>Esportes </P>
+
+        </selection>
+
+        <selection id="noticias">
+            <article>
+            <h2>noticias</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ullam, excepturi quisquam vero at labore ducimus nobis distinctio quod. Ea, praesentium dolorem esse corrupti dignissimos quasi quisquam exercitationem ratione qui.</p>
+            
+                <p>artigo escrito por blablabla</p>
+            </article>
+            
+        </selection>
+   </main>
+   <footer>
+        <!--Rodapé--> 
+   </footer>
+</body>
+</html>

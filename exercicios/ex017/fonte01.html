@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+        body{
+            font-family: 'Work Sans', sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            */
+            
+            font-size: 1em;
+            /*Recomenda-se utilizar: "px" e "em"
+            16px geralmente = 1 em
+            */
+
+            font-weight: bold;
+            /*Peso da fonte/ para colocar em negrito
+            lighter, normal, bold, bolder
+            também pode ser escrita de forma numerica:
+            font-weight: porcentagem 
+            */
+            
+            font-style: italic;
+            /*Determina estilo da escrita
+            Italic, Normal*/
+
+            text-decoration: underline;
+            /* Deixa o texto sublinhado */
+        }
+
+       /* h1, h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            Existe uma forma de condensar/simplificar a escrita deste exemplo acima:
+
+            shorthand font:
+            -font-style -> font-weigth -> font- siza -> font-family  }
+            
+            
+            Ex: */
+            h1{
+                font: italic bolder 3em 'Work Sans', sans-serif;
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, impedit ipsa consequatur delectus culpa nesciunt blanditiis illum nisi corporis perferendis dolorum, molestiae recusandae ipsum amet itaque animi, veniam fugit consectetur dolor officia vero! Exercitationem perferendis cumque obcaecati! Sapiente illum molestias sed corporis consectetur provident beatae iure distinctio ea delectus fugit, neque, sequi eos? Ipsa, a omnis corrupti sapiente reiciendis iste sunt optio possimus atque aliquam cum natus unde commodi totam nobis non. Aut, explicabo sed dolor at odio dolores facilis excepturi tempora, sint voluptates et hic unde aliquid accusamus dolorum ut! Consectetur numquam aut doloribus. Libero quis corporis, sunt nemo consequatur quod rem natus, suscipit aut nam dolorem. Explicabo libero ea vel. Provident, incidunt soluta! Expedita illo excepturi blanditiis iure nam accusantium. Tempora perspiciatis magnam est a molestiae minus ullam inventore consequuntur ipsum quos, provident temporibus, animi laborum aperiam magni harum eligendi maiores commodi laudantium ex. Harum quia dicta illum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima maiores ad ipsa eum cupiditate, veniam odit sapiente? Nisi ipsa quis voluptatibus vitae nobis velit nostrum rerum at perspiciatis provident.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sit accusamus mollitia blanditiis error consequatur earum dolore deleniti laborum ad, dignissimos consequuntur inventore, nam facere amet voluptate ex natus pariatur velit maxime molestias facilis! Laudantium nam voluptatibus est! Sapiente facere illo quas facilis, adipisci, corporis asperiores eaque aliquid, eligendi quisquam enim! Repudiandae ducimus velit, iure magni, alias impedit necessitatibus excepturi consequatur ex nostrum quidem nam eum amet libero rem fuga praesentium id sequi recusandae et nihil, ab illum? Molestiae, id earum. Sequi, dolorem. Quam alias autem ipsum sed temporibus, nobis debitis esse hic? Corrupti, quas illo nisi aliquid id repellat eaque, culpa, nostrum aspernatur beatae ab officia autem libero maiores dolorum ullam magnam aut dolor ducimus consequatur sapiente harum recusandae doloribus! Odit quam sunt nemo nisi illo pariatur officia esse fugit quibusdam repudiandae deleniti, exercitationem delectus autem asperiores ex corrupti eaque ab libero natus deserunt accusantium! Cum facilis totam aliquid?</p>
+</body>
+</html>
