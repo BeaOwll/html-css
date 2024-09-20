@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -29,6 +30,12 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
 
         tbody > tr:nth-child(odd) {
@@ -53,7 +60,7 @@
 </head>
 <body>
     <h1>
-        Uo de tabelas grandes </h1>
+        Uso de tabelas grandes </h1>
 
         <!--
             ANATOMIA PARA TABELAS GRANDES
@@ -68,7 +75,7 @@
                     TR,TD,TH
         -->
 
-        <TAble>
+        <table>
             <caption>População das Unidades Federativas</caption>
              <thead>
                 <tr>
@@ -247,11 +254,12 @@
              <tfoot>
                 <tr>
                     <th scope="row"> Total de Habitantes</th>
-                    <td class="num"><strong>210.147.125</strong></td>
+                    <td class="num" colspan="2"><strong>210.147.125</strong></td>
                 </tr>
              </tfoot>
 
 
-        </TAble>
+        </table>
+
 </body>
 </html>
