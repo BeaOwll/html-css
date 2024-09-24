@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+</head>
+<body>
+    <h1>estando o uso de um iframe</h1>
+
+    <h2>Forma que aprendemos anteriormente com link</h2>
+    <p>Acessando o site di <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a> para aprender a programar</p>
+
+    <h2>O uso do iframe</h2>
+
+     <p>Iframe é tipo uma janela de site externo dentro da sua pagina</p>
+
+     <p>EX:</p>
+
+    <p>Acessando o site  
+        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+
+        
+        para aprender a programar</p>
+
+        <!--Existem alguns sites que impedem a possibilidade de utilizar o iframe, por questoes de segurança. Ex: Google
+        -->
+
+        <p>Muitos navegadores de celular não são compativeis com iframe, por isso recomenda-se colocar o link para o site no lugar da descrição do video</p>
+
+        <p>EX:</p>
+
+        <p>Acessando o site
+
+            <iframe src="https://www.cursoemvideo.com" frameborder="0">
+                <a href="https://www.cursoemvideo.com">site curso em video</a>
+            </iframe>
+    
+             para aprender a programar</p>
+
+
+        <h2> Configurando a aparencia do iframe</h2>
+
+        <p>O tamanho padrao de um iframe é 300x150, para personalizar um iframe você pode usar tanto css quanto html, porém o Css tráz a propriedade mais forte e que ira se sobrepor ao Html</p>
+
+        <p>Ex de conf em Html</p>
+
+        <p>Acessando o site  
+
+            <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" width="500">
+                <a href="https://www.cursoemvideo.com">site curso em video</a>
+            </iframe>
+    
+             para aprender a programar</p>
+
+        <p>Ex de conf em Css</p>
+
+        <style>
+            iframe{
+                width: 400px;
+                height: 400px;
+            }
+        </style>
+
+<!--a tag do Css se sobrepoem ao exemplo anterior-->
+            
+</body>
+</html>
